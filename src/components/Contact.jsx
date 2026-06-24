@@ -22,7 +22,7 @@ export default function Contact() {
 
         <div className="flex justify-center gap-10 mt-10 text-4xl text-sky-400">
 
-          <a href="https://github.com/maan371">
+          <a href="https://github.com/emaan-imran">
             <FaGithub />
           </a>
 

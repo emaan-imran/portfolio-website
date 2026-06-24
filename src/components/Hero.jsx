@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -14,11 +13,11 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/60"></div>
 
       <motion.div
-  initial={{ opacity: 0, y: 30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.8 }}
-  className="relative z-10 text-center px-5 pt-24"
->
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="relative z-10 text-center px-5 pt-24"
+      >
   
         <img
           src="/profile.jpg"
@@ -56,7 +55,7 @@ export default function Hero() {
             target="_blank"
             className="border-2 border-sky-400 hover:bg-sky-500 px-8 py-3 rounded-lg text-white font-semibold transition"
           >
-            Download CV
+            View CV
           </a>
         </div>
 
